@@ -14,7 +14,7 @@
     </parent>
     <groupId>abbas.springframework</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>spring-pet-clinic</name>
     <description>Demo project for Spring Boot</description>
 
@@ -42,7 +42,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:abbasogaji/spring-pet-clinic.git</developerConnection>
-      <tag>spring-pet-clinic-0.0.1</tag>
+      <tag>spring-pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
