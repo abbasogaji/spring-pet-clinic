@@ -2,7 +2,7 @@ package abbas.springframework.springpetclinic.model;
 
 import java.time.LocalTime;
 
-public class Pet {
+public class Pet extends BaseEntity{
 
     private Owner owner;
     private PetType petType;
