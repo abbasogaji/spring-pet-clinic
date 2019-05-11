@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Vet Page</title>
+</head>
+<body>
+    <h1 th:text="'List of vets'">List of Vets</h1>
+    <ul>
+        <li th:each="vet : ${vets}" th:text="${vet}"></li>
+    </ul>
+
+</body>
+</html>
