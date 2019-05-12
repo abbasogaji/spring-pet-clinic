@@ -1,12 +1,11 @@
 package abbas.springframework.springpetclinic.services.map;
 
 import abbas.springframework.springpetclinic.model.Owner;
-import abbas.springframework.springpetclinic.services.CrudService;
 import abbas.springframework.springpetclinic.services.OwnerService;
 
 import java.util.Set;
 
-public class OwnerMapService extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long>, OwnerService {
+public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
     public Owner save(Owner object) {
